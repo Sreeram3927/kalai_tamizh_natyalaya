@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 40px;
     padding: 16px;
     background: rgba(1, 1, 1, 0.56);
     border-radius: 74px;

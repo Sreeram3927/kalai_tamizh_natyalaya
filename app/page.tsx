@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './page.module.css';
 import AppBar from './components/app_bar';
 import CenteredView from './components/centered_view';
@@ -8,11 +7,11 @@ export default function Home() {
   return (
     <CenteredView>
       <div className={styles.heroSection}>
-        
+
         <AppBar />
-        
-        <HeroCard />
-      
+
+        <div className={styles.card}><HeroCard /></div>
+
       </div>
     </CenteredView>
   );
