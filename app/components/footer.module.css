@@ -14,19 +14,6 @@
     position: absolute;
     background: rgba(243, 253, 167, 0.15);
 }
-  
-.copyright {
-    width: 539px;
-    height: 51px;
-    left: 87px;
-    top: 0;
-    position: absolute;
-    color: white;
-    font-size: 32px;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    word-wrap: break-word;
-}
 
 .myContacts {
     display: flex;
@@ -49,6 +36,36 @@
     word-wrap: break-word;
     text-align: left;
 }
-  
 
+.socials {
+    width: 50vh;
+    right: 0px;
+    top: 25px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Cinzel';
+    word-wrap: break-word;
+    text-align: left;
+}
   
+.socialMedia {
+    width: 50vh;
+    right: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright {
+    width: 100vh;
+    bottom: 0;
+    position: absolute;
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    word-wrap: break-word;
+}

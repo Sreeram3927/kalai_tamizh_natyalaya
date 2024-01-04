@@ -27,11 +27,29 @@ const Footer: React.FC = () => {
                 </div>
             </div>
 
+            <div className={styles.socials}>
+                <div className={styles.infos}>Follow Us:  </div>
+                <div className={styles.socialMedia}>
+                    <Image src='/socials/instagram.png' alt='' width='25' height='25'/>
+                    <a href="/about" style={{ paddingLeft:'10px' }}>Instagram</a>
+                </div>
+                <div className={styles.socialMedia}>
+                    <Image src='/socials/youtube.png' alt='' width='25' height='25'/>
+                    <a href="/about" style={{ paddingLeft:'10px' }}>Youtube</a>
+                </div>
+                <div className={styles.socialMedia}>
+                    <Image src='/socials/facebook.png' alt='' width='25' height='25'/>
+                    <a href="/about" style={{ paddingLeft:'10px' }}>Facebook</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div className={styles.copyright}>
+            © 2023 Kalai Tamizh Natayalaya
         </div>
       
-      {/* <div className={styles.copyright}>
-        © 2023 Kalai Tamizh Natayalaya
-      </div>
+      {/* 
       
       <div className={styles.socialMedia}>
         <div className={styles.instagramIcon}>
