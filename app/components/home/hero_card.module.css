@@ -21,7 +21,7 @@
 }
   
 .quoteLarge {
-    width: 100%;
+    width: calc(100% - 40px);
     height: 50%;
     position: absolute;
     color: white;
@@ -29,11 +29,11 @@
     font-family: 'Cinzel';
     font-weight: 400;
     word-wrap: break-word;
-    text-align: left;
+    text-align: justify;
 }
   
 .quoteAuthor {
-    width: 100%;
+    width: calc(100% - 40px);
     height: 50%;
     position: absolute;
     bottom: 30px;

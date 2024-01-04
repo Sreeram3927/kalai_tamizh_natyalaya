@@ -7,7 +7,7 @@ interface CenteredViewProps {
 
 const CenteredView: React.FC<CenteredViewProps> = ({ children, maxWidth = 800 }) => {
     return (
-        <div style={{ maxWidth, margin: '0 auto', padding: '20px', textAlign: 'center' }}>
+        <div style={{ maxWidth, margin: '0 auto', padding: '20px', textAlign: 'center' , height: '100vh'}}>
             {children}
         </div>
     );
