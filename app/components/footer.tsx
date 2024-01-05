@@ -48,21 +48,7 @@ const Footer: React.FC = () => {
         <div className={styles.copyright}>
             © 2023 Kalai Tamizh Natayalaya
         </div>
-      
-      {/* 
-      
-      <div className={styles.socialMedia}>
-        <div className={styles.instagramIcon}>
         
-        </div>
-        <div className={styles.youtubeIcon}>
-        
-        </div>
-        <div className={styles.facebookIcon}>
-        
-        </div>
-        <div className={styles.followUs}>Follow Us</div> 
-      </div>*/}
     </div>
   );
 };

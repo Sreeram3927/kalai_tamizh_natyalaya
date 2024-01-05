@@ -3,6 +3,7 @@ import AppBar from './components/app_bar';
 import CenteredView from './components/centered_view';
 import HeroCard from './components/home/hero_card';
 import Footer from './components/footer';
+import ModeOfClasses from './components/home/mode_of_classes';
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
         <AppBar />
         <div className={styles.card}><HeroCard /></div>
       </div>
+
+      <ModeOfClasses />
 
       <Footer />
       
