@@ -4,6 +4,7 @@ import CenteredView from './components/centered_view';
 import HeroCard from './components/home/hero_card';
 import Footer from './components/footer';
 import ModeOfClasses from './components/home/mode_of_classes';
+import GalleryTease from './components/home/gallery_tease';
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       </div>
 
       <ModeOfClasses />
+
+      <GalleryTease />
 
       <Footer />
       
