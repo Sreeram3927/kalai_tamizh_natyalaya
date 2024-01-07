@@ -1,14 +1,20 @@
 import AppBar from '../components/app_bar';
 import CenteredView from "../components/centered_view";
 import Footer from '../components/footer';
+import styles from './about.module.css';
 
 export default function About() {
     return (
         <CenteredView>
-            <AppBar />
-            <h1>About</h1>
-            <p>This is the about page</p>
-            <Footer />
+            <div className={styles.bg}>
+            
+                <AppBar />
+
+                <div className={styles.title}>About Us</div>
+
+                <Footer />
+
+            </div>
         </CenteredView>
     )
 }
