@@ -19,7 +19,7 @@
 }
 
 .NavButton {
-    width: 100%;
+    width: auto;
     height: 100%;
     background: black;
     border-radius: 51px;

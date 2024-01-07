@@ -1,14 +1,24 @@
+"use client"
+
 import React from "react";
 import styles from "./gallery_tease.module.css";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const GalleryTease = () => {
+
+    const router = useRouter();
+
+    const galleryPage = () => {
+        router.push("/gallery");
+    }
+
     return (
         <div className={styles.container}>
 
             <div className={styles.topPart}>
                 <div className={styles.title}>Gallery</div>
-                <button className={styles.joinButton}>See More</button>
+                <button className={styles.joinButton} onClick={galleryPage}>See More</button>
             </div>
 
             <div className={styles.imageCarousel}>
