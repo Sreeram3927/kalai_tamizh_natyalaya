@@ -6,11 +6,40 @@
 }
 
 .title {
-    height: 5000px;
     margin: 20px;
     text-align: center;
     color: white;
     font-size: 75px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.aboutGuru {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.guruImage {
+    margin: 50px 20px;
+    object-fit: cover;
+    box-shadow: -7px 8px 5px rgba(243, 253, 167, 0.69);
+    border-radius: 30px;
+    border: 7px #F3FDA7 solid;
+}
+
+.guruText {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
     font-family: 'Cinzel';
     font-weight: 400;
     word-wrap: break-word;
