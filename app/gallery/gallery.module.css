@@ -1,0 +1,25 @@
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(243, 253, 167, 0.33), rgba(0, 0, 0, 0));
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.infoText {
+    margin: 40px;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cinzel';
+    word-wrap: break-word;
+}
