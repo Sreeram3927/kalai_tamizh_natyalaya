@@ -44,3 +44,29 @@
     font-weight: 400;
     word-wrap: break-word;
 }
+
+.infoText {
+    margin: 40px;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cinzel';
+    word-wrap: break-word;
+}
+
+.joinButton {
+    width: 20%;
+    height: auto; 
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #F3FDA7;
+    box-shadow: -5px 6px 6px rgba(255, 255, 255, 0.51);
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}

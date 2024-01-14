@@ -5,9 +5,16 @@ import styles from './app_bar.module.css';
 import { useRouter } from 'next/navigation';
 
 const AppBar: React.FC = () => {
+
+    const router = useRouter();
+
+    const homePage = () => {
+        router.push("/");
+    };
+
     return (
         <div className={styles.AppBar}>
-            <div>
+            <div onClick={homePage} style={{cursor: 'pointer'}}>
                 <h1>My App</h1>
             </div>
             <NavButtons />
@@ -21,12 +28,10 @@ function NavButtons() {
     const router = useRouter();
 
     const aboutPage = () => {
-        console.log("About Page");
         router.push("/about");
     };
 
     const galleryPage = () => {
-        console.log("Gallery Page");
         router.push("/gallery");
     }
 
