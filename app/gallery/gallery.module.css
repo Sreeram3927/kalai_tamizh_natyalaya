@@ -23,3 +23,11 @@
     font-family: 'Cinzel';
     word-wrap: break-word;
 }
+
+.galleryImage {
+    margin: 50px 20px;
+    object-fit: cover;
+    box-shadow: -7px 8px 5px rgba(243, 253, 167, 0.69);
+    border-radius: 30px;
+    border: 7px #F3FDA7 solid;
+}
