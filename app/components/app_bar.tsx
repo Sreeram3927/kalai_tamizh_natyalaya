@@ -14,11 +14,10 @@ const AppBar: React.FC = () => {
 
     return (
         <div className={styles.AppBar}>
-            <div onClick={homePage} style={{cursor: 'pointer'}}>
-                <h1>My App</h1>
+            <div className={styles.Logo} onClick={homePage}>
+                Kalai Tamizh Natyalaya
             </div>
             <NavButtons />
-            
         </div>
     );
 };

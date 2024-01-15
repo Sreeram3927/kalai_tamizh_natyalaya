@@ -13,6 +13,14 @@
     backdrop-filter: blur(24px);
 }
 
+.Logo {
+    font-size: 2em;
+  
+    @media screen and (max-width: 768px) {
+      font-size: 1.3em;
+    }
+}
+
 .NavRow {
     display: flex;
     justify-content: end;
@@ -25,4 +33,12 @@
     border-radius: 51px;
     margin-left: 10px;
     padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .NavButton {
+      padding: 12px; 
+      font-size: 1.1em;
+    }
 }

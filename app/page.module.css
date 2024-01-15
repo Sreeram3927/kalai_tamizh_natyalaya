@@ -1,24 +1,27 @@
 
 .heroSection {
-  min-height: 75vh;
-  min-width: 100%;
+  height: 85%;
+  min-width: auto;
   background-image: radial-gradient(circle at center, transparent, black), url("../public/Nataraj.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+  justify-content:start;
+
+  @media screen and (max-width: 768px) {
+    height: 60%;
+  }
+
 }
 
 .card {
-  width: 100%;
-  margin-top: 50px;
+  height: 100%;
   display: flex;
-  justify-content: start;
+  margin: 50px;
+  justify-content: flex-start;
+  align-items: center;
 }
