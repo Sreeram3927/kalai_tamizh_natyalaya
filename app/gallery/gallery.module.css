@@ -7,6 +7,9 @@
     font-family: 'Cinzel';
     font-weight: 400;
     word-wrap: break-word;
+    @media screen and (max-width: 768px) {
+        font-size: 50px;
+    }
 }
 
 .infoText {
@@ -16,12 +19,24 @@
     font-size: 25px;
     font-family: 'Cinzel';
     word-wrap: break-word;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 .galleryImage {
     margin: 50px 20px;
     object-fit: cover;
-    box-shadow: -7px 8px 5px rgba(243, 253, 167, 0.69);
+    /* box-shadow: -7px 8px 5px rgba(243, 253, 167, 0.69); */
     border-radius: 30px;
     border: 7px #F3FDA7 solid;
+    @media screen and (max-width: 768px) {
+        margin: 20px 10px;
+    }
+}
+
+.galleryImage:hover {
+    transform: translateY(-10px);
+    box-shadow: -7px 8px 5px rgba(243, 253, 167, 0.69);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }

@@ -30,9 +30,8 @@
     width: auto;
     height: auto; 
     padding: 10px 20px;
-    margin-left: 10px;
+    margin: 10px;
     background: #F3FDA7;
-    box-shadow: -5px 6px 6px rgba(255, 255, 255, 0.51);
     border-radius: 50px;
     text-align: center;
     color: black;
@@ -40,6 +39,13 @@
     font-family: 'Cinzel';
     font-weight: 400;
     word-wrap: break-word;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-out, transform 0.2s ease-out;
+}
+
+.joinButton:hover {
+    box-shadow: 0px 6px 6px rgba(255, 255, 255, 0.51);
+    transform: translateY(-5px);
 }
 
 .infoCardContainer {
