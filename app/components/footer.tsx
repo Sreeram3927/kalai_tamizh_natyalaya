@@ -6,11 +6,9 @@ const Footer: React.FC = () => {
   return (
     <div className={styles.container}>
 
-        <div className={styles.backgroundOverlay} />
-
         <div className={styles.myContacts}>
 
-            <div className={styles.contactInfo}>
+            <div>
                 <div className={styles.infos}>
                     Phone No:<br />
                     +91 0123456789
